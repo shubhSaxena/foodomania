@@ -1,0 +1,304 @@
+<my_products>
+	<product>
+		<id>1</id>
+		<name>Tomato dhania shorba</name>
+		<price>100.00</price>
+		<image>cart/images/soupV.png</image>
+		<description>
+			A thin soup of tomatoes and coriander blended in Indian spices.
+		</description>
+	</product>
+	<product>
+		<id>2</id>
+		<name>Lemon coriander chicken</name>
+		<price>150.00</price>
+		<image>cart/images/soupNV.png</image>
+		<description>
+			Shredded chicken soup with lemon grass, coriander stalks and lemon juice.
+		</description>
+	</product>
+	<product>
+		<id>3</id>
+		<name>Tandoori chicken chaat</name>
+		<price>220.00</price>
+		<image>cart/images/saladNV.png</image>
+		<description>
+			Pieces of tandoori chicken with lemon and coriander.
+		</description>
+	</product>
+	<product>
+		<id>4</id>
+		<name>Fathus salad</name>
+		<price>150.00</price>
+		<image>cart/images/salv1.png</image>
+		<description>
+			Diced bell peppers with lemon dressing, parsley sprigs, fetta cheese and crisp pita bread.
+		</description>
+	</product>
+	<product>
+		<id>5</id>
+		<name>Chick peas salad</name>
+		<price>100.00</price>
+		<image>cart/images/salv2.png</image>
+		<description>
+			Chickpeas with Indian dressing topped with chopped onion, tomatoes and coriander.
+		</description>
+	</product>
+	<product>
+		<id>6</id>
+		<name>Kimchi salad</name>
+		<price>120.00</price>
+		<image>cart/images/salv3.png</image>
+		<description>
+			Crisp cabbage and pock choy dressed with oriental chilli paste and roasted sesame seeds.
+		</description>
+	</product>
+	<product>
+		<id>7</id>
+		<name>Waldorf salad</name>
+		<price>180.00</price>
+		<image>cart/images/salv4.png</image>
+		<description>
+			Cut fruits with pineapple, mayonnaise and cherries.
+		</description>
+	</product>
+	<product>
+		<id>8</id>
+		<name>German potato salad</name>
+		<price>180.00</price>
+		<image>cart/images/salv5.png</image>
+		<description>
+			Potato cubes with dill leaves and German dressing.
+		</description>
+	</product>
+	<product>
+		<id>9</id>
+		<name>Achari kumbh</name>
+		<price>150.00</price>
+		<image>cart/images/srt1.png</image>
+		<description>
+			Mushrooms marinated in Indian pickle and topped with bell pepper and tomatoes.
+		</description>
+	</product>
+	<product>
+		<id>10</id>
+		<name>Paneer tikka lazawaab</name>
+		<price>180.00</price>
+		<image>cart/images/srt2.png</image>
+		<description>
+			Paneer cubes marinated in hung curd and flavoured with garam masala.
+		</description>
+	</product>
+	<product>
+		<id>11</id>
+		<name>Cajun spice baby potato</name>
+		<price>150.00</price>
+		<image>cart/images/srt3.png</image>
+		<description>
+			Baby potatoes grilled with Cajun spice and topped with chilli mayonnaise.
+		</description>
+	</product>
+	<product>
+		<id>12</id>
+		<name>Hare mutter ke tikki</name>
+		<price>120.00</price>
+		<image>cart/images/srt4.png</image>
+		<description>
+			Green peas sautéed with spices and gram flour, binded with potatoes and served with mint chutney.
+		</description>
+	</product>
+	<product>
+		<id>13</id>
+		<name>Fish tikka</name>
+		<price>250.00</price>
+		<image>cart/images/srt5.png</image>
+		<description>
+			Fish fillets marinated with spices and yoghurt, grilled in oven.
+		</description>
+	</product>
+	<product>
+		<id>14</id>
+		<name>Chicken lollipop</name>
+		<price>200.00</price>
+		<image>cart/images/srt6.png</image>
+		<description>
+			Simple indo chinese appetizer in which the chicken wings are spiced up and deep fried.
+		</description>
+	</product>
+	<product>
+		<id>15</id>
+		<name>Chicken kastoori kebab</name>
+		<price>270.00</price>
+		<image>cart/images/srt7.png</image>
+		<description>
+			Chicken strips marinated in a flavourful masala and grilled.
+		</description>
+	</product>
+	<product>
+		<id>16</id>
+		<name>Chicken tikka</name>
+		<price>150.00</price>
+		<image>cart/images/srt8.png</image>
+		<description>
+			Small pieces of boneless chicken baked using skewers in a clay oven.
+		</description>
+	</product>
+	<product>
+		<id>17</id>
+		<name>Kadai paneer</name>
+		<price>180.00</price>
+		<image>cart/images/mainV1.png</image>
+		<description>
+			Bhuno fried tomato, capsicum and onion mixed with coarse kadhai masala and paneer.
+		</description>
+	</product>
+	<product>
+		<id>18</id>
+		<name>Khatte aloo</name>
+		<price>180.00</price>
+		<image>cart/images/mainV2.png</image>
+		<description>
+			Dum aloo in a rich curd-based gravy topped with lemon juice.
+		</description>
+	</product>
+	<product>
+		<id>19</id>
+		<name>Thai Curry Soup</name>
+		<price>200.00</price>
+		<image>cart/images/mainV3.png</image>
+		<description>
+			Yellow coconut curry broth, spinach, cabbage, mushrooms, tomato, red onion and rice noodles with organic tofu.
+		</description>
+	</product>
+	<product>
+		<id>20</id>
+		<name>Italian baked aubergines</name>
+		<price>220.00</price>
+		<image>cart/images/mainV4.png</image>
+		<description>
+			A gorgeous, moreish Italian dish that carnivores won't care is vegetarian.
+		</description>
+	</product>
+	<product>
+		<id>21</id>
+		<name>Murshidabadi chicken biriyani</name>
+		<price>240.00</price>
+		<image>cart/images/mainV5.png</image>
+		<description>
+			A layered chicken dum biryani made with potatoes and flavoured with ancient Mughal spices.
+		</description>
+	</product>
+	<product>
+		<id>22</id>
+		<name>Chicken meatballs</name>
+		<price>280.00</price>
+		<image>cart/images/mainV6.png</image>
+		<description>
+			Seasoned with herbs and a hint of red pepper, sprinkled with Italian cheeses and served in a zesty marinara.
+		</description>
+	</product>
+	<product>
+		<id>23</id>
+		<name>Spaghetti and Meat Sauce</name>
+		<price>300.00</price>
+		<image>cart/images/mainV7.png</image>
+		<description>
+			Our meat sauce is prepared fresh daily with garlic and herbs and served with spaghetti.
+		</description>
+	</product>
+	<product>
+		<id>23</id>
+		<name>Butter Chicken</name>
+		<price>250.00</price>
+		<image>cart/images/mainV8.png</image>
+		<description>
+			Butter chicken has tomato and cashewnut based gravy garnished with butter and cream.
+		</description>
+	</product>
+	<product>
+		<id>24</id>
+		<name>Hot chocolate coffee</name>
+		<price>150.00</price>
+		<image>cart/images/coffee.png</image>
+		<description>
+			Hot coffee with chocolate flavour.
+		</description>
+	</product>
+	<product>
+		<id>25</id>
+		<name>Mango Smoothies</name>
+		<price>180.00</price>
+		<image>cart/images/smoothies.png</image>
+		<description>
+			Chilling and refreshing mango flavoured smoothies.
+		</description>
+	</product>
+	<product>
+		<id>26</id>
+		<name>Shaken Iced passion tango tea</name>
+		<price>130.00</price>
+		<image>cart/images/tea.png</image>
+		<description>
+			Highly energetic and refreshing shaken ice tea with tango passion. 
+		</description>
+	</product>
+	<product>
+		<id>27</id>
+		<name>Hot chocolate</name>
+		<price>180.00</price>
+		<image>cart/images/choc.png</image>
+		<description>
+			Taste the chocolate hot.
+		</description>
+	</product>
+	<product>
+		<id>28</id>
+		<name>Gulab jammun</name>
+		<price>60.00</price>
+		<image>cart/images/des1.png</image>
+		<description>
+			Deep fried mava dumplings soaked in sugar syrup.
+		</description>
+	</product>
+	<product>
+		<id>29</id>
+		<name>Kesari Phirnee</name>
+		<price>50.00</price>
+		<image>cart/images/des2.png</image>
+		<description>
+			Simmered milk with rice flour and topped with saffron and pista flakes.
+		</description>
+	</product>
+	<product>
+		<id>30</id>
+		<name>Dates and Coconut Pie</name>
+		<name></name>
+		<price>80.00</price>
+		<image>cart/images/des3.png</image>
+		<description>
+			Dates and coconut cooked with brown sugar and baked in a crumbled whole wheat pie crust.
+		</description>
+	</product>
+     <product>
+		<id>31</id>
+		<name>Chocolate Brownie</name>
+		<name></name>
+		<price>60.00</price>
+		<image>cart/images/des4.png</image>
+		<description>
+			Our Chef’s secret recipe with chocolate and walnuts.
+		</description>
+	</product>
+	<product>
+		<id>32</id>
+		<name>Shahi Tukda</name>
+		<name></name>
+		<price>100.00</price>
+		<image>cart/images/des5.png</image>
+		<description>
+			Deep fried bread simmered in thick milk and served with rabbadi.
+		</description>
+	</product>
+
+	
+</my_products>

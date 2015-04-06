@@ -1,0 +1,4 @@
+$mysql_host = "mysql5.000webhost.com";
+$mysql_database = "a8797524_project";
+$mysql_user = "a8797524_project";
+$mysql_password = "bhamshu123+";

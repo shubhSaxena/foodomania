@@ -1,0 +1,421 @@
+.left {float:left}
+.right {float:right}
+.wrapper {width:100%;overflow:hidden}
+.wrap{overflow:hidden;width:960px;margin-left:-5px;padding-left:5px}
+
+body
+{
+		background:url(../images/bg_bot.jpg) center 0 repeat #faf3ed;
+		border:0;
+		font:14px Georgia, "Times New Roman", Times, serif;
+		color:#200;
+		line-height:24px;
+}
+
+.main 
+{
+	margin:0 auto;
+	width:960px;
+}
+
+.body1 {background:url(../images/bg_top_img.jpg) top center no-repeat}
+.body2 {background:#faf3ed} 
+.body3 {background:url(../images/bg_bot.jpg) top center repeat}
+.body4 {background:url(../images/bg_bot_img.jpg) top center no-repeat}
+.body5 {background:url(../images/slider_shadow.png) center 508px no-repeat}
+.body6 {background:url(../images/bg_top.jpg) top repeat-x}
+
+a 
+{
+	color:#a80002;
+	text-decoration:none;
+	outline:none;
+}
+a:hover {text-decoration:underline}
+
+h1 {float:left;padding:0px 0 0 36px}
+
+h2 
+{
+	font-size:35px;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	line-height:1.2em;
+	color:#200000;
+	padding:16px 0 12px 0
+	;letter-spacing:-2px;
+}
+h2.letter_spacing {letter-spacing:-2px}
+h3 {font-size:27px;color:#230000;line-height:1.2em;padding:20px 0 9px 0;letter-spacing:-1px}
+h3 span {color:#a80002}
+p {padding-bottom:24px}
+p span {color:#a80002}
+
+header 
+{
+	height:121px;
+	padding-top:31px;
+	width:100%;
+	overflow:hidden;
+}
+
+#logo 
+{
+	display:block;
+	background:url(../images/logo.png) 0 0 no-repeat;
+	width:290px;
+	height:94px;
+	text-indent:-9999px;
+}
+
+#top_nav 
+{
+	float:right;
+	padding:4px 43px 30px 0;
+}
+ 
+#menu 
+ {
+	background: #400000; 
+	background: linear-gradient(top, #800000 0%, #400000 70%);  
+	background: -moz-linear-gradient(top, #800000 0%, #400000 70%); 
+	background: -webkit-linear-gradient(top, #800000 0%,#400000 70%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0px 20px; 
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ }
+	
+#menu :after 
+ {
+	content: ""; 
+	clear: both; 
+	display: block;
+ }
+ 
+#menu  li 
+ {
+	float: left;
+ }
+ 
+#menu  li:hover 
+ {
+	background: #cc9900;
+	background: linear-gradient(top, #cc9900 0%, #cccc00 60%);
+	background: -moz-linear-gradient(top, #cc9900 0%, #cccc00 60%);
+	background: -webkit-linear-gradient(top, #cc9900 0%,#cccc00 60%);
+}
+
+#menu  li:hover a 
+	{
+	color: #400000;
+	text-decoration:underline;
+	}
+	
+#menu  li a 
+	{
+	display: block; 
+	padding: 3px 25px;
+	color: #cc9900; 
+	text-decoration: none;
+	}
+	
+#menu ul ul 
+ {
+    background: #cccc00; 
+    border-radius: 0px; 
+    padding: 0;
+    position: absolute;
+	top: 100%;
+ }
+
+ .active
+ {
+	color: #400000;
+	text-decoration:overline;
+	
+ }
+ 
+ 
+ 
+.slider_bg 
+{
+	width:100%;
+	border: solid 2px #600000;
+	border-style:groove;
+	height:400px;
+	position:relative;
+	overflow:hidden;
+	margin-bottom:35px;
+	margin-top:5px;
+}
+.cols {float:left;width:300px}
+
+.cols1{width:300px;margin-left:0px;}
+
+.cols2{width:300px;margin-left: 400px;}
+
+#content {padding-bottom:40px}
+#content2 {padding-bottom:31px}
+
+.pad_left1 {padding-left:30px}
+.pad_bot1 {padding-bottom:13px}
+.pad_bot2 {padding-bottom:24px}
+.marg_right1 {margin-right:20px}
+
+
+
+.box {
+	border: solid 5px #600000;
+	border-style:grove;
+	background-color:#400000;
+	color:#faf3ed;
+	margin-top:3px;
+	box-shadow:0 0 5px rgba(0, 0, 0, .4);
+	-moz-box-shadow:0 0 5px rgba(0, 0, 0, .4);
+	-webkit-box-shadow:0 0 5px rgba(0, 0, 0, .4);
+}
+
+.box  div {
+
+	padding:30px;
+	padding-top:0;
+	overflow:hidden;
+	margin-top:5px;
+}
+
+.box h2 {color:#a80002;padding:15px 0 12px 0}
+.box h2 span {color:#faf3ed}
+.box figure {padding-bottom:13px}
+
+.dayofweek {
+	font-style: italic;
+	width: 145px;
+}
+
+.timeofdeliver {
+	font-style: italic;
+	width: 135px;
+}
+
+.button1 
+{
+	display:inline-block;
+	font-size:20px;
+	color:#faf3ed;
+	line-height:34px;
+	padding:0 15px;
+	background:#a80002;
+	letter-spacing:-1px;
+}
+
+.button1:hover {text-decoration:none;color:#1e0000;background:#faf3ed}
+
+.button2 
+{
+	display:inline-block;
+	font-size:20px;
+	color:#faf3ed;
+	line-height:34px;
+	padding:0 15px;
+	background:#00a802;
+	letter-spacing:-1px;
+}
+
+.button2:hover {text-decoration:none;color:#001e00;background:#faf3ed}
+
+.reviews li span 
+{
+	float:left;
+	width:40px;
+	height:40px;
+	font-size:30px;
+	color:#faf3ed;
+	line-height:34px;
+	text-align:center;
+	background:#a80002;
+	margin-right:20px;
+}
+.reviews li p {float:left;width:180px;padding-bottom:15px}
+.reviews li img {padding-top:2px}
+
+.address {padding-bottom:0}
+.address span {float:left;width:84px}
+
+/* footer */
+footer
+{
+	height:138px;
+	font:13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#696969;
+	line-height:18px;
+}
+
+footer a {color:#c53005;text-decoration:underline}
+footer a:hover {text-decoration:none}
+
+#icons {padding:5px 0 0 0}
+#icons li {float:left;padding-right:9px}
+
+a.reserv {
+	color: #faf3ed;
+	display: inline-block;
+	background-color: #a80002;
+	padding: 25px 18px 25px 18px;
+	margin-top: 54px;
+	font:  27px/27px 'Open Sans', sans-serif;
+}
+
+a.reserv:hover {
+	
+	color:#1e0000;
+	background:#faf3ed
+}
+
+a.reserv span {
+	font-size: 50px;
+	position: relative;
+	display: inline-block;
+	top: -4px;
+	margin-right: 2px;
+}
+
+#ContactForm 
+{
+	margin-top:-5px;
+	width:850px;
+	-webkit-border-radius: 5px;
+	           -moz-border-radius: 5px;
+	                border-radius: 5px;
+	        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+
+}
+#ContactForm span 
+{
+	float:left;
+	width:111px;
+	line-height:15px;
+}
+#ContactForm .wrapper {min-height:15px}
+
+#ContactForm .textarea_box 
+{
+min-height:170px;
+width:100%;
+overflow:hidden;
+padding-bottom:9px;
+}
+
+#ContactForm a {margin-left:20px;float:right}
+
+#ContactForm .input 
+{
+width:399px;
+height:18px;
+background:#faf3ed;
+padding:1px 5px;
+color:#220000;
+font:14px Georgia, "Times New Roman", Times, serif;
+margin:0;
+float:left;
+}
+
+#ContactForm textarea 
+{
+overflow:auto;
+width:789px;
+height:163px;
+background:#faf3ed;
+padding:1px 5px;
+color:#220000;
+font:14px Georgia, "Times New Roman", Times, serif;
+margin:0;
+}
+
+#LoginForm 
+{
+	margin-top:-5px;
+	width:850px;
+	-webkit-border-radius: 5px;
+	           -moz-border-radius: 5px;
+	                border-radius: 5px;
+	        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+
+}
+
+#LoginForm a {margin-left:20px;float:right}
+
+#LoginForm span 
+{
+	float:left;
+	width:111px;
+	line-height:15px;
+}
+#LoginForm .wrapper {min-height:10px}
+
+#LoginForm .input 
+{
+width:399px;
+height:18px;
+background:#faf3ed;
+padding:1px 5px;
+color:#220000;
+font:14px Georgia, "Times New Roman", Times, serif;
+margin:0;
+float:left;
+}
+
+#RegisterForm 
+{
+	margin-top:-5px;
+	width:850px;
+
+}
+
+#RegisterForm a {margin-left:20px;float:right}
+
+#RegisterForm span 
+{
+	float:left;
+	width:111px;
+	line-height:15px;
+}
+#RegisterForm .wrapper {min-height:10px}
+
+#RegisterForm .input 
+{
+width:399px;
+height:18px;
+background:#faf3ed;
+padding:1px 5px;
+color:#220000;
+font:14px Georgia, "Times New Roman", Times, serif;
+margin:0;
+float:left;
+}
+
+#googleMap {float:right}
+
+.table_new
+{
+ width: 90%;
+ left: 5%;
+ text-align:center;
+ color:#cc9900;
+ 
+}
+
+.table_new th{
+background-color:#cc9900;
+color: #400000;
+font-size:20px;
+}
+.table_new td{
+font-size:18px;
+}
+

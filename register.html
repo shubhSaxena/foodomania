@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Restaurant</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+
+</head>
+<body id="reg">
+<script>
+ 
+  function statusChangeCallback(response) {
+    console.log('statusChangeCallback');
+    console.log(response);
+   
+    if (response.status === 'connected') {
+     
+      testAPI();
+    } else if (response.status === 'not_authorized') {
+      
+      document.getElementById('status').innerHTML = 'Please log ' +
+        'into this app.';
+    } else {
+      
+      document.getElementById('status').innerHTML = 'Please log ' +
+        'into Facebook.';
+    }
+  }
+
+  function checkLoginState() {
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+  }
+
+  window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '685927064860777',
+    cookie     : true,  
+                        
+    xfbml      : true,  
+    version    : 'v2.1' 
+  });
+   FB.Event.subscribe('auth.login', function(response) {
+        window.location = 'user.php';
+    });
+
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+
+  };
+
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+ 
+  function testAPI() {
+    console.log('Welcome!  Fetching your information.... ');
+    FB.api('/me', function(response) {
+      console.log('Successful login for: ' + response.name);
+      document.getElementById('status').innerHTML =
+        'Thanks for logging in, ' + response.name + '!';
+    });
+  }
+  
+</script>
+<div class="body6">
+	<div class="body1">
+		<div class="body5">
+			<div class="main">
+
+				<header>
+					<h1><a href="index.php" id="logo">Food-O-Mania A Traditional Restaurant</a></h1>
+													
+						<div id="top_nav" >
+							<a href="register.html"  class="button1" >Sign in/Register</a>
+							<fb:login-button scope="public_profile,email" onlogin="checkLoginState();" data-auto-logout-link="true">
+									</fb:login-button>
+									
+							<div id="status">
+							</div>
+						</div>			
+					<nav>
+						<ul id="menu">
+							<li><a href="index.php">HOME</a>
+							<li><a href="menu.html">MENU</a></li>
+							<li><a href="about.php">ABOUT US</a></li>
+							<li><a href="order.html">ORDER</a></li>
+							<li><a href="cook.php">COOKBOOK</a></li>
+							<li><a href="Booking.html">RESERVATION</a></li>
+							<li><a href="events.php">RECIPES</a></li>
+							<li><a href="Contacts.html">CONTACT US</a></li>
+						</ul>
+					</nav>
+					
+				</header>
+
+	<article id="content">
+				
+				
+				<div class="wrap">
+					<div class="box">
+						<div>
+							<h2 class="letter_spacing">Sign <span>in</span></h2>
+							<form id="LoginForm" action="signin.php" method="POST">
+								<div>
+									<div class="wrapper">
+										<span>User ID:</span>
+										<input type="text" class="input" name="userid" required>
+									</div>
+									<div class="wrapper">
+										<span>Password:</span>
+										<input type="password" class="input" name="password" required>								
+									</div>
+									<input type="submit" class="button1" value="Login" name="submit">
+									<a href="#" class="button1" onClick="document.getElementById('LoginForm').reset()">Clear</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				
+				<div class="wrap">
+					<div class="box">
+						<div>
+							<h2 class="letter_spacing">Register <span>here</span></h2>
+							<form id="RegisterForm" action="register.php" method="POST" >
+								<div>
+									<div class="wrapper">
+										<span>Name:</span>
+										<input type="text" class="input" name="name" required>
+									</div>
+									<div class="wrapper">
+										<span>User ID:</span>
+										<input type="text" class="input" name="userid" required>
+									</div>
+									<div class="wrapper">
+										<span>E-mail:</span>
+										<input type="email" class="input" name="email" required>
+									</div>
+									<div class="wrapper">
+										<span>Birthday:</span>
+										<input type="date" class="input" name="bday" required>								
+									</div>
+									<div class="wrapper">
+										<span>Password:</span>
+										<input type="password" class="input" name="password" id="password" required>								
+									</div>
+									<div class="wrapper">
+										<span>Confirm Password:</span>
+										<input type="password" class="input" name="confirm_password" id="confirm_password" required>								
+									</div>
+									<div class="wrapper">
+										<span>Gender:</span>
+										<input type="radio" name="gender"  value="male">Male
+										<input type="radio" name="gender"  value="female">Female							
+									</div>
+									<input type="submit" class="button1" value="Register" name="submit">
+									<a href="#" class="button1" onClick="document.getElementById('RegisterForm').reset()">Clear</a>
+									
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</article>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="body3">
+	<div class="body4">
+		<div class="main">
+<!-- footer -->
+			<footer>
+				<div class="wrapper">
+					<section class="col1 pad_left1">
+						<h3>Toll Free: <span>1800 123 45 67</span></h3>
+						Copyright &copy; JIIT, Noida
+					</section>
+					<section class="col2 pad_left1">
+						<h3>Follow Us </h3>
+						<ul id="icons">
+							<li><a href="#" class="normaltip" title="Facebook"><img src="images/icon1.gif" alt=""></a></li>
+							<li><a href="#" class="normaltip" title="Twitter"><img src="images/icon2.gif" alt=""></a></li>
+							<li><a href="#" class="normaltip" title="Zomato"><img src="images/icon3.gif" alt=""></a></li>
+							
+						</ul>
+					</section>
+				</div>
+				
+			</footer>
+<!-- / footer -->
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
